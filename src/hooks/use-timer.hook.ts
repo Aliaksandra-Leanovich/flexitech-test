@@ -17,7 +17,7 @@ export const useTimer = () => {
     }
 
     return () => clearInterval(intervalRef.current!);
-  }, [running]);
+  }, [running, time]);
 
   const startPause = () => setRunning((prev) => !prev);
 
