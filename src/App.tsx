@@ -1,10 +1,12 @@
 import React from 'react';
 
+import TimerList from './components/timer-list/timer-list';
+
 function App() {
   return (
-    <div className="App">
-    </div>
+    <TimerList />
   );
 }
 
 export default App;
+
