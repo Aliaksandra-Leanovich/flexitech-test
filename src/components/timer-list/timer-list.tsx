@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import Timer from "../timer/timer";
 
-import "./timer-list.styles.scss"
+import "./timer-list.styles.css"
 
 
 const TimerList: React.FC = () => {

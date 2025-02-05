@@ -2,7 +2,7 @@ import React from "react";
 
 import { useTimer } from "../../hooks";
 
-import './timer.styles.scss'
+import './timer.styles.css'
 
 
 const Timer = () => {
