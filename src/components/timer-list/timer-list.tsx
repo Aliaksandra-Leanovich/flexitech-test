@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import Timer from "../timer/timer";
+
 import "./timer-list.styles.scss"
 
 
@@ -23,7 +25,9 @@ const TimerList: React.FC = () => {
         </button>
       </div>
       <div className="timer-list__container">
-        Timer
+        {timers.map((id) => (
+          <Timer key={id} />
+        ))}
       </div>
     </div>
   );
